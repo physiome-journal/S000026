@@ -1,0 +1,76 @@
+version: 1
+project:
+  title: >-
+    Reproducibility Study on a PBPK Model of FcRn-Mediated Recycling for Large Molecules
+  description: The PBPK model of FcRn-mediated recycling of large molecules was developed and studied by deWitte et al. (2023) to characterize and predict Immunoglobulin G (IgG) disposition in plasma and tissues. This study investigated the large-molecule model in PK-Sim and its applicability to molecules with FcRn binding affinity in plasma.
+  thumbnail: thumbnail.png
+  authors:
+    - name: Soroush Safaei
+      affiliations:
+        - Sanofi (Belgium), R&D Ghent
+        - Auckland Bioengineering Institute, University of Auckland, New Zealand
+      orcid: 0000-0001-5734-243X
+      corresponding: true
+      email: soroush.safaei@sanofi.com
+    - name: Veronique De Brabandere
+      affiliations:
+        - Sanofi (Belgium), R&D Ghent
+    - name: Wilhelmus E. A. de Witte
+      affiliations:
+        - esqLABS GmbH
+    - name: Lindsay B. Avery
+      affiliations:
+        - Sanofi (US), R&D Cambridge
+    - name: Tom Van Bogaert
+      affiliations:
+        - Sanofi (Belgium), R&D Ghent
+    - name: Maria Laura Sargentini-Maier
+      affiliations:
+        - Sanofi (Belgium), R&D Ghent
+  editors:
+    - name: Shelley Fong
+      orcid: 0000-0001-8610-1088
+      role: Editor
+      affiliations:
+        - Auckland Bioengineering Institute, University of Auckland, New Zealand
+    - name: Weiwei Ai
+      orcid: 0000-0001-5602-5707
+      role: Curator
+      affiliations:
+        - Auckland Bioengineering Institute, University of Auckland, New Zealand
+  history:
+    - date: 2023/11/21
+      type: submitted
+    - date: 2024/02/08
+      type: accepted
+    - date: 2024/02/12
+      type: published
+  keywords:
+    - PBPK
+    - FcRn
+    - IgG
+    - large molecules
+    - monoclonal antibodies
+    - PK-Sim (R)
+    - MoBi (R)
+  open_access: true
+  license: CC-BY-4.0
+  subject: Original
+  date: 2024/02/12
+  doi: 10.36903/physiome.25194020
+  numbering:
+    headings: true
+site:
+  title: >-
+    Reproducibility Study on a PBPK Model of FcRn-Mediated Recycling for Large Molecules
+  actions:
+    - title: paper
+      url: Safaei2024PhysiomeS000026.pdf
+      static: true
+    - title: omex
+      url: Safaei2024PhysiomeS000026.omex
+      static: true
+    - title: primary
+      url: https://doi.org/10.1007/s10928-023-09849-9
+  domains:
+    - physiome-S000026.curve.space
