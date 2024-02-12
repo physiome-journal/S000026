@@ -60,7 +60,11 @@ project:
   doi: 10.36903/physiome.25194020
   numbering:
     headings: true
+  abbreviations:
+    IgG: Immunoglobulin G
+    mAb: monoclonal antibodies
 site:
+  template: article-theme
   title: >-
     Reproducibility Study on a PBPK Model of FcRn-Mediated Recycling for Large Molecules
   actions:
@@ -72,5 +76,3 @@ site:
       static: true
     - title: primary
       url: https://doi.org/10.1007/s10928-023-09849-9
-  domains:
-    - physiome-S000026.curve.space
